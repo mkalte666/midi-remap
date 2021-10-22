@@ -1,0 +1,24 @@
+[package]
+name = "midi-remap"
+version = "0.1.0"
+edition = "2018"
+authors = ["Malte Kießling <mkalte@mkalte.me>"]
+license = "GPL-3.0-or-later"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.midir]
+version = "^0.7.0"
+
+[dependencies.clap]
+version = "^2.33"
+
+[dependencies.midly]
+version = "^0.5"
+
+[dependencies.serde]
+version = "^1"
+features = ["derive"]
+
+[dependencies.serde_json]
+version = "^1"
