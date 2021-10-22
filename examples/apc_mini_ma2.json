@@ -1,0 +1,11 @@
+{ 
+    "mappings" : [
+        {
+            "from": "Control",
+            "to": "NoteOn",
+            "start": 48,
+            "stop" : 127,
+            "to_start": 100
+        }
+    ]
+}
